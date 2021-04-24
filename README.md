@@ -1,3 +1,3 @@
 # peprogram.github.io
 Hello there!
-This is just a way to get to know me as i wade throught the world of computers!
+This is just a way for you to get to know me as I wade through the world of computers!
