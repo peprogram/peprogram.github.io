@@ -128,6 +128,7 @@ header .content-wrap {
 .projects {
   background-image: url(https://i.pinimg.com/736x/87/46/0c/87460cb20206cded02f8c81d552ef9d7.jpg);
   background-size: cover;
+  background-position: top right;
   color: #ffecd1;
 }
 .projects a {
@@ -192,7 +193,6 @@ footer {
   color: #ffdf90;
   font-family: "Averia Sans Libre", cursive;
   font-size: 3vh;
-  height: min-content;
 }
 footer a {
   color: #ffdf90;
