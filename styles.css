@@ -163,7 +163,7 @@ header .content-wrap {
   color: #ffecd1;
 }
 .job-item {
-  background-color: rgba(20, 20, 20, 0.3);
+  background-color: rgba(20, 20, 20, 0.6);
   padding-left: 20px;
 }
 
@@ -225,6 +225,7 @@ footer ul {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
+    background-color: rgba(20, 20, 20, 0.3);
   }
   /* footer ul {
     display: flex;
