@@ -103,7 +103,7 @@ h4 {
 }
 
 .nav-bar .active {
-  background-color: #b47b00;
+  background-color: #966600;
 }
 
 /*Profile
@@ -163,7 +163,7 @@ header .content-wrap {
   color: #ffecd1;
 }
 .job-item {
-  background-color: rgba(20, 20, 20, 0.6);
+  background-color: rgba(20, 20, 20, 0.5);
   padding-left: 20px;
 }
 
@@ -182,8 +182,42 @@ header .content-wrap {
 .edu-item {
   background-color: rgba(20, 20, 20, 0.8);
 }
-h3#special {
+
+.coursera {
+  display: none;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  padding: 10px;
+}
+
+.special {
   font-family: "Averia Sans Libre", cursive;
+  background-color: rgb(0, 0, 0);
+  color: #ffecd1;
+  width: 100%;
+  margin-top: 20px;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  font-size: 5vw;
+  padding: 10px;
+}
+
+.max,
+.special:hover {
+  color: coral;
+}
+
+.special:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  color: #ffecd1;
+  float: right;
+  /* margin-left: 5px; */
+}
+
+.max:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  color: coral;
 }
 
 /*Contact
@@ -193,6 +227,7 @@ footer {
   color: #ffdf90;
   font-family: "Averia Sans Libre", cursive;
   font-size: 3vh;
+  /* height: min-content; */
 }
 footer a {
   color: #ffdf90;
@@ -226,6 +261,9 @@ footer ul {
     grid-template-columns: 1fr 2fr;
     column-gap: 10px;
     background-color: rgba(20, 20, 20, 0.3);
+  }
+  .special {
+    font-size: 1.5vw;
   }
   /* footer ul {
     display: flex;
