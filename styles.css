@@ -383,6 +383,7 @@ footer ul {
   }
   .skill-item i {
     font-size: 50px;
+    padding: 20px 10px;
   }
   .projects .divider {
     grid-template-columns: 1fr;
