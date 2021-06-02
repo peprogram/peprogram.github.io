@@ -131,16 +131,17 @@ header .content-wrap {
   width: 100%;
   text-align: center;
 }
-header i {
-  padding: 20px;
-  font-size: 50px;
-}
 
 /*Profile
 ---------------- */
 .profile {
   background-image: url(https://i.pinimg.com/originals/7e/44/d7/7e44d784e358286f8f3f2cc2079189de.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: top right;
+  box-shadow: inset 0 0 2px 0 #000;
   background-size: cover;
   color: #ffdf90;
   font-size: 3vh;
@@ -175,31 +176,40 @@ header i {
 ---------------- */
 .skills {
   background-image: url(https://pandaleesillie.files.wordpress.com/2014/08/black-3d-cones-abstract-graphic-background.jpg);
-  background-size: cover;
+  height: 100%;
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 2px 0 #000;
   color: #ffecd1;
+  padding-bottom: 15px;
 }
 .skills h2 {
   padding-bottom: 20px;
 }
 .skill-item {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
   column-gap: 10px;
   justify-content: center;
 }
 .skill-item i {
-  padding: 20px;
+  padding: 15px;
   /* background-color: rgba(20, 20, 20, 0.5); */
-  font-size: 80px;
+  font-size: 70px;
 }
 
 /*Projects
 ---------------- */
 .projects {
   background-image: url(https://i.pinimg.com/736x/87/46/0c/87460cb20206cded02f8c81d552ef9d7.jpg);
+  height: 100%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
+  box-shadow: inset 0 0 2px 0 #000;
   color: #ffecd1;
 }
 .projects a {
@@ -228,6 +238,74 @@ header i {
   column-gap: 10px;
   justify-content: center;
   background-color: rgba(20, 20, 20, 0.7);
+}
+
+/*Work Experience
+---------------- */
+.work {
+  background-image: url(https://free4kwallpapers.com/uploads/originals/2019/11/12/some-of-unicityart-silhouette-work-wallpaper.jpg);
+  background-size: cover;
+  color: #ffecd1;
+}
+.job-item {
+  background-color: rgba(20, 20, 20, 0.5);
+  padding-left: 20px;
+}
+
+/*Education
+---------------- */
+.education {
+  background-image: url(https://wallpaperaccess.com/full/1644014.jpg);
+  background-size: cover;
+  background-position: top center;
+  color: #ffecd1;
+  padding-bottom: 20px;
+}
+/* .education p {
+  width: 70%;
+} */
+.edu-item {
+  background-color: rgba(20, 20, 20, 0.8);
+}
+
+.coursera {
+  display: none;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+  padding: 10px;
+}
+
+.special {
+  font-family: "Averia Sans Libre", cursive;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffecd1;
+  width: 100%;
+  margin-top: 25px;
+  border: none;
+  text-align: left;
+  font-size: 5vw;
+  padding: 10px;
+}
+
+.max,
+.special:hover {
+  color: coral;
+  width: 100%;
+  text-align: left;
+}
+
+.special:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  padding-left: 10px;
+  color: #ffecd1;
+  float: right;
+  /* margin-left: 5px; */
+}
+
+.max:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+  float: right;
+  color: coral;
 }
 
 /*Contact
