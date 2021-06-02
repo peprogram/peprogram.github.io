@@ -342,6 +342,6 @@ footer ul {
   }
   .profile .content-wrap {
     grid-template-columns: 1fr;
-    align-content: center;
+    justify-content: center;
   }
 }
