@@ -199,6 +199,12 @@ header .content-wrap {
   /* background-color: rgba(20, 20, 20, 0.5); */
   font-size: 70px;
 }
+#smaller1,
+#smaller2 {
+  align-self: center;
+  justify-self: center;
+  font-size: 60px;
+}
 
 /*Projects
 ---------------- */
@@ -326,6 +332,10 @@ footer ul {
   .skill-item i {
     font-size: 50px;
     padding: 20px 10px;
+  }
+  #smaller1,
+  #smaller2 {
+    font-size: 40px;
   }
   .projects .divider {
     grid-template-columns: 1fr;
