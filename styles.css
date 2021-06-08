@@ -63,13 +63,6 @@ h3,
 h4 {
   margin-bottom: 0;
 }
-/* .divider > section {
-  border-bottom: 1px dotted #ffecd1;
-  padding: 20px;
-}
-.divider > section:last-of-type {
-  border-bottom: none;
-} */
 
 /*Navigation Bar
 --------------*/
@@ -117,7 +110,6 @@ h4 {
 
 /*Head
 ---------------- */
-
 canvas {
   width: 100%;
   height: 99vh;
@@ -210,9 +202,6 @@ header .content-wrap {
 ---------------- */
 .projects {
   background-image: url(https://i.pinimg.com/736x/87/46/0c/87460cb20206cded02f8c81d552ef9d7.jpg);
-  height: 100%;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
   background-size: cover;
   background-position: top right;
   box-shadow: inset 0 0 2px 0 #000;
@@ -279,12 +268,6 @@ footer ul {
   header .content-wrap {
     left: 15%;
   }
-  /* .projects .divider {
-    display: flex;
-  } */
-  /* .project-item img {
-    margin-right: 30px;
-  } */
   .job-item {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -294,11 +277,6 @@ footer ul {
   .special {
     font-size: 1.5vw;
   }
-  /* footer ul {
-    display: flex;
-    justify-content: center;
-    padding-left: 20px;
-  } */
 }
 @media screen and (max-width: 749px) {
   /*small devices*/
