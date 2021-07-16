@@ -182,7 +182,7 @@ header .content-wrap {
 }
 .skill-item {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto auto auto;
   column-gap: 10px;
   justify-content: center;
 }
