@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Website - Persis Anie Antony" />
-  <title>Persis Anie Antony - College Student</title>
+  <title>Persis Anie Antony - CSE Undergrad</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
@@ -19,89 +19,32 @@
 <body>
   <main>
     <!-- ***********************  HEAD  *********************** -->
-    <header>
-      <div class="nav-bar">
-        <ul>
-          <li id="top-name"> PEPROGRAM </li>
-          <li><a href="#pro">PROJECTS</a></li>
-          <!--<li><a> |</a> </li>
-          <li><a class="active" href="#home">HOME</a></li>-->
-        </ul>
-      </div>
-      <div class="content-wrap">
-        <h1>PERSIS ANIE ANTONY</h1>
-        <h2>CSE Undergrad</h2>
-      </div>
-      <canvas id="canvas"> </canvas>
-
-    </header>
+    <!-- <header>
+      <canvas id="canvas"> </canvas> ->
+    </header> -->
 
 
     <!-- ***********************  ABOUT  *********************** -->
     <section class="profile">
 
       <div class="content-wrap">
+        <div class="bg" style="border-top-left-radius: 10px; border-top-right-radius: 10px;">
+          <h2>PERSIS ANIE ANTONY</h2>
+          <a class="link" href="#pro" target="_self">PROJECTS</a> |
+          <a class="link" href="#work" target="_self">EXPERIENCE</a>
+        </div>
         <img src="headshot.jpg" alt="thumbnail">
-        <p>
-          Hello there! I'm an aspiring Engineer who loves to code!
-          I usually try to learn new stuff and work on projects that'll
-          increase my knowledge and build experience. I also dabble in
-          Problem-Solving, Web Development, Machine Learning and much more! <br>
-          <!-- <a class="btn" href="#" target="_self">Know More &nbsp;<i class="fas fa-external-link-alt"></i></a> -->
-          <a class="btn" href="../Resume - Persis Anie Antony.pdf" target="_blank"><i class="fa fa-download"
-              aria-hidden="true"></i>&nbsp;
-            Resume</a>
-        </p>
-        <!-- </div>
-      <div class="content-wrap"></div> -->
+        <p> Hello there! <br> I'm a CSE Undergrad who loves coding!
+          I learn new stuff and work on projects. I also dabble in
+          Problem-Solving, Web Development and more! </p>
 
-        <!--   <p>Add another paragraph if needed.</p> -->
-      </div>
-    </section>
-
-    <!-- ******************  SKILLS & INTERESTS ****************** -->
-    <section class="skills">
-      <div class="content-wrap">
-        <h2>Skills</h2>
-
-        <!-- Copy this whole <section> block to add more schools. -->
-        <section class="skill-item">
-          <!-- <h3>Languages/Frameworks/Tools</h3> -->
-          <!-- <i class="devicon-cplusplus-line-wordmark"></i>
-          <i class="devicon-python-plain-wordmark"></i>
-          <i class="devicon-java-plain-wordmark"></i>
-          <i class="devicon-mysql-plain-wordmark"></i>
-          <i class="devicon-html5-plain-wordmark"></i>
-          <i class="devicon-css3-plain-wordmark"></i>
-          <i class="devicon-javascript-plain"></i>
-          <i class="devicon-php-plain"></i>
-          <i class="devicon-bootstrap-plain-wordmark"></i>
-          <i class="devicon-react-original-wordmark"></i>
-          <i class="devicon-nodejs-plain"></i>
-          <i class="devicon-express-original-wordmark"></i>
-          <i class="fab fa-aws"></i>
-          <i class="devicon-matlab-plain"></i>
-          <i class="devicon-photoshop-line"></i>
-          <i class="devicon-illustrator-line"></i> -->
-
-          <i class="devicon-cplusplus-line" style="color:rgb(194, 0, 0)"> </i>
-          <i class=" devicon-python-plain-wordmark colored"></i>
-          <i class="devicon-java-plain-wordmark colored"></i>
-          <i class="devicon-mysql-plain-wordmark colored"></i>
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
-          <i class="devicon-javascript-plain colored"></i>
-          <!--<i class="devicon-php-plain colored"></i>
-          <!-- <i class="devicon-bootstrap-plain-wordmark colored"></i> -->
-          <i class="devicon-react-original-wordmark colored"></i>
-          <i class="devicon-nodejs-plain colored"></i>
-          <i class="devicon-express-original" id="smaller1"></i>
-          <i class="devicon-git-plain-wordmark colored"></i>
-          <i style="color: rgb(255, 255, 255)" class="fab fa-aws" id="smaller2"></i>
-          <!--<i class="devicon-matlab-plain colored"></i>-->
-          <i class="devicon-photoshop-line colored"></i>
-          <i class="devicon-illustrator-line colored"></i>
-        </section>
+        <a class="btn" href="../Resume - Persis Anie Antony.pdf" target="_blank">
+          Download Resume
+        </a> <br>
+        <a href="mailto:persis216@gmail.com"><i class="fa fa-envelope" aria-hidden="true" style="color:red"></i></a>
+        <a href="https://github.com/peprogram" target="_blank"><i class="fab fa-github-square"></i></a>
+        <a href="https://www.linkedin.com/in/persis-anie-antony/" target="_blank"><i class="fab fa-linkedin"
+            style="color: rgb(2, 91, 133)"></i></a>
       </div>
     </section>
 
@@ -109,83 +52,163 @@
     <section class="projects" id="pro">
       <div class="content-wrap">
         <h2>Featured Projects</h2>
-        <p class="centre">
-          View selected projects below.<br>These are all open source projects that can be found on my
-          <a href="https://github.com/peprogram"> <B>github</B></a>.
+        <p> These are all open source projects. View more at my
+          <a href="https://github.com/peprogram">github</a>
         </p>
-        <div class="divider">
+        <div>
           <!-- Copy the whole <section> block to add more projects. -->
           <section class="project-item">
-            <!-- <img src="images/thumbnail-1.jpg" alt="thumbnail" /> -->
-            <h3>NOTED!</h3>
-            <a class="btn" href="https://github.com/peprogram/noted" target="_blank">Visualise project</a>
+            <a href="https://github.com/peprogram/noted" target="_blank">NOTED!</a>
             <p>
-              An application to save Notes (jot down thoughts, make lists, etc.).
-              Built using Node.js,
-              Express.js, Pug(Jade), CSS and
-              JS.
+              An app to save Notes (jot down thoughts, make lists, etc.).
+              Built using Node.js, Express.js, Pug(Jade), CSS and JS.
             </p>
-
+            <p>May 2021</p>
           </section>
 
           <section class="project-item">
-            <!-- <img src="images/thumbnail-1.jpg" alt="thumbnail" /> -->
-            <h3>HANGMAN</h3>
-            <a class="btn" href="https://github.com/peprogram/hang-man.git" target="_blank">View project code</a>
+            <a href="https://github.com/peprogram/hang-man.git" target="_blank">HANGMAN</a>
             <p>
               A C++ recreation of the classic word game in a cool, arcade-like design. A fun past-time with awesome
               old-timey graphics and sound effects!
             </p>
-
+            <p>January 2019</p>
           </section>
 
           <section class="project-item">
-            <!-- <img src="images/thumbnail-1.jpg" alt="thumbnail" /> -->
-            <h3>RESULT MANAGEMENT SYSTEM</h3>
-            <a class="btn" href="https://github.com/peprogram/srms" target="_blank">View code</a>
-            <p>
-              An application to maintain student records which, at its core, has Java and text files!
-            </p>
-
+            <a href="https://github.com/peprogram/srms" target="_blank">RESULT SYSTEM</a>
+            <p>App to maintain student records which, at its core, has Java and text files!</p>
+            <p>June 2020</p>
           </section>
 
           <section class="project-item">
-            <!-- <img src="images/thumbnail-2.jpg" alt="thumbnail" /> -->
-            <h3>MY PORTFOLIO</h3>
-            <a class="btn" href="#" target="_self">Explore project</a>
+            <a class="btn" href="#" target="_self">MY PORTFOLIO</a>
             <p>
-              An HTML-CSS-JS Project (this!) that also acts as my resume. It is updated every now-and-then to keep you
+              HTML-CSS Project (this!) that also acts as my resume. It is updated every now-and-then to keep you
               updated on my developing skills.
             </p>
+            <p>March 2021</p>
           </section>
         </div>
 
-        <p class="centre">
-          <i class="fa fa-spinner fa-spin"></i> &nbsp;Always loading more . . .
+        <p> <i class="fa fa-spinner fa-spin"></i> &nbsp;Always loading more . . .
         </p>
         <!-- End of Project block. -->
       </div>
     </section>
 
+    <section class="skills">
+      <!-- <h2>My Skills</h2> -->
+      <i class="devicon-cplusplus-line" style="color:rgb(194,0,0)"></i>
+      <i class="devicon-python-plain-wordmark colored"></i>
+      <i class="devicon-java-plain-wordmark colored"></i>
+      <i class="devicon-mysql-plain-wordmark colored"></i>
+      <i class="devicon-html5-plain-wordmark colored"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <!-- <i class="devicon-php-plain colored"></i> -->
+      <i class="devicon-react-original-wordmark colored"></i>
+      <i class="devicon-nodejs-plain colored"></i>
+      <i class="devicon-express-original" id="smaller1"></i>
+      <!-- <i class="devicon-git-plain-wordmark colored"></i> -->
+      <i class="devicon-amazonwebservices-plain colored"></i>
+      <!-- <i style="color: rgb(255, 155, 41)" class="fab fa-aws"></i> -->
+      <!-- <i class="devicon-matlab-plain colored"></i> -->
+      <i class="devicon-photoshop-line colored"></i>
+      <i class="devicon-illustrator-line colored"></i>
+      <!-- style="border-top-right-radius:10px;border-bottom-right-radius:10px"></i> -->
+    </section>
+
+    <!-- ***********************  WORK EXPERIENCE  *********************** -->
+    <section class="work" id="work">
+      <h2>Work Experience</h2>
+      <!-- <p>Optional paragraph for work experience summary. Not a part of the job details. Delete if not being used.</p>
+
+       Copy this whole <section> block to add more jobs. -->
+      <section class="job-item">
+        <div class="job-details">
+          <h3>UPCOMING Project Intern - Consultant</h3>
+          <p>Oracle Financial Software Services</p>
+          <p>May 2022 - June 2022</p>
+        </div>
+        <!-- <div class="job-summary">
+            <p>Content Writing & Graphic Designing</p>
+            <ul>
+              <li>
+                Created lots of eye-catching content for Social Media accounts
+              </li>
+              <li>
+                Collaborated with many speakers, designed and edited posters
+              </li>
+            </ul>
+          </div> -->
+      </section>
+
+      <section class="job-item">
+        <div class="job-details">
+          <h3>Documentation Core Coordinator</h3>
+          <p>TEDxNITRaipur</p>
+          <p>2020 - Present</p>
+        </div>
+        <!-- <div class="job-summary">
+            <p>Content Writing & Graphic Designing</p>
+            <ul>
+              <li>
+                Created lots of eye-catching content for Social Media accounts
+              </li>
+              <li>
+                Collaborated with many speakers, designed and edited posters
+              </li>
+            </ul>
+          </div> -->
+      </section>
+
+      <section class="job-item">
+        <div class="job-details">
+          <h3>PR & Marketing Executive</h3>
+          <p>Entrepreneurship Cell NITRR</p>
+          <p>2021 - Present</p>
+        </div>
+        <!-- <div class="job-summary">
+            <p>Public Relations & Marketing</p>
+            <ul>
+              <li>
+                Increased the social media presence, activity and interaction
+                of the committee, and publicised its events
+              </li>
+              <li>
+                Responsible for contacting speakers, arranging events and
+                basically, marketing the brand
+              </li>
+            </ul>
+          </div> -->
+      </section>
+
+    </section>
+
+    <section class="fun">
+      <div>
+        <h1>5</h1>
+        <h2>Projects</h2>
+      </div>
+      <div>
+        <h1>1</h1>
+        <h2>Internship</h2>
+      </div>
+      <div>
+        <h1>2</h1>
+        <h2>Courses</h2>
+      </div>
+      <div>
+        <h1>314+</h1>
+        <h2>Cups of Tea</h2>
+      </div>
+    </section>
     </div>
 
     <!-- *****************  CONTACT INFO / SOCIAL MEDIA  ***************** -->
-    <footer>
-      <div class="content-wrap" class="centre">
-        <ul class="contact-list">
-          <li>LINKS TO ME:</li>
-          <!-- Social media and contact links. Add or remove any networks. -->
-          <li><a href="mailto:persis216@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
-          <li>
-            <a href="https://github.com/peprogram" target="_blank"><i class="fab fa-github-square"></i></a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/persis-anie-antony/" target="_blank"><i
-                class="fab fa-linkedin"></i></a>
-          </li>
-        </ul>
-      </div>
-    </footer>
+    <!-- <footer>
+    </footer> -->
   </main>
   <script src="script.js"></script>
 </body>
